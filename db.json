@@ -1,0 +1,82 @@
+[
+    {
+    "index": 0,
+    "author": "Howard Phillips Lovecraft",
+    "imageLink": "https://m.media-amazon.com/images/I/41BunCasgTL.jpg",
+    "title": "The Call of Cthulhu and Other Weird Stories",
+    "price": 11,
+    "description": "The Call of Cthulhu is probably Lovecraft’s most influential story, serving as the basis for his epic “Old Ones” mythos. It centers around an ancient dragon-sea monster hybrid that implants itself subconsciously into human minds, driving them slowly insane"
+  },
+    {
+      "index": 1,
+      "author": "Howard Phillips Lovecraft",
+      "imageLink": "https://m.media-amazon.com/images/I/51sbecyTsPL.jpg",
+      "title": "The Shadow Over Innsmouth",
+      "price": 10,
+      "description": "These next two entries are both part of the Weird Stories anthology as well, but as longer novellas (and landmark Lovecraftian works), they merit their own entries."
+    },
+    {
+      "index": 2,
+      "author": "Howard Phillips Lovecraft",
+      "imageLink": "https://m.media-amazon.com/images/I/51f9KhbGCfL.jpg",
+      "title": "The Whisperer in Darkness",
+      "price": 12,
+      "description": "The Whisperer in Darkness takes a different, less extreme tack to horror than Shadow Over Innsmouth. It’s considered by many to be a blend of horror and science fiction, representing something of a genre shift for Lovecraft in the 1930s"
+    },
+    {
+      "index": 3,
+      "author": "Howard Phillips Lovecraft",
+      "imageLink": "https://m.media-amazon.com/images/I/41jzZRhciFL.jpg",
+      "title": "The Dunwich Horror",
+      "price": 19,
+      "description": "Lovecraft loved him a fictional New England town full of inexplicable phenomena. The Dunwich Horror follows the development of Wilbur Whateley, a child who matures at a freakish rate, becoming a full-grown man in just a few years."
+    },
+    {
+      "index": 4,
+      "author": "Howard Phillips Lovecraft",
+      "imageLink": "https://m.media-amazon.com/images/I/51Wbpf1QxyL.jpg",
+      "title": "At the Mountains of Madness",
+      "price": 21,
+      "description": "Another classic Lovecraft novella, and probably his best-known work after Cthulhu, At the Mountains of Madness describes a failed (to put it lightly) Antarctic expedition as recounted by Professor William Dyer."
+    },
+    {
+      "index": 5,
+      "author": "Howard Phillips Lovecraft",
+      "imageLink": "https://m.media-amazon.com/images/I/61IEQ4OH0qL.jpg",
+      "title": "The Dream-Quest of Unknown Kadath",
+      "price": 12,
+      "description": "Now we’re getting into the “Dream Cycle,” a series of works in which Lovecraft explores the supernatural through dreams and the subconscious. The Dream-Quest of Unknown Kadath features Randolph Carter, a scholar and antiquarian driven to explore the “Dreamlands”: an alternate dimension accessible only via dreams."
+    },
+    {
+      "index": 6,
+      "author": "Howard Phillips Lovecraft",
+      "imageLink": "https://m.media-amazon.com/images/I/51C-JVfZX5L.jpg",
+      "title": " The Silver Key and Through the Gates of the Silver Key",
+      "price": 10,
+      "description": "We’ll lump these two Dream Cycle works together, as both stories continue the narrative of Randolph Carter. The Silver Key starts some time after the events of Kadath, when Carter realizes that he no longer possesses the “key to the gate of dreams”: where once he had vivid, whimsical dreams every night, his recent scientific learnings have left him utterly uninspired."
+    },
+    {
+      "index": 7,
+      "author": "Howard Phillips Lovecraft",
+      "imageLink": "https://m.media-amazon.com/images/I/51C-JVfZX5L.jpg",
+      "title": "The Shadow Out of Time",
+      "price": 18,
+      "description": "This 1936 novella sees Lovecraft return to writing about strange creatures, namely the Great Race of Yith, aliens who can travel through space and time. The main human character of the story is Professor Nathaniel Wingate Peaslee, who unexpectedly finds his own consciousness linked to that of a Yithian. Though at first Peaslee worries that he is losing his mind, he’s reassured by the existence of many similar cases before his… and then plunged into terror again, when he realizes the identity of the culprit."
+    },
+    {
+      "index": 8,
+      "author": "Howard Phillips Lovecraft",
+      "imageLink": "https://m.media-amazon.com/images/I/31DwjGfs1FL.jpg",
+      "title": "The Mound",
+      "price": 16,
+      "description": "It seems like there's never been as much widespread desire before for a better way to deeply learn the fundamentals of JavaScript. But with a million blogs, books, and videos out there, just where do you START? Look no further!"
+    },
+    {
+      "index": 9,
+      "author": "Howard Phillips Lovecraft",
+      "imageLink": "https://m.media-amazon.com/images/I/51P0bnQy66L.jpg",
+      "title": "Imprisoned with the Pharaohs",
+      "price": 13,
+      "description": "Imprisoned with the Pharaohs is a bit of a fun one to cap off our list, as Lovecraft collaborated on it with Harry Houdini himself! It’s allegedly based on a true story, but Lovecraft (much like his frequently skeptical narrators) believed Houdini’s personal account to be fabricated, and so took a good deal of artistic license as he was writing it."
+    }
+  ]
