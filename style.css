@@ -1,101 +1,145 @@
 * {
-    margin: 0;
-  }
-  .main {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    background-color: rgb(112, 69, 13);
-  }
-  button {
-    text-transform: uppercase;
-    vertical-align: bottom;
-    border: 0;
-    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 20%), 0 2px 10px 0 rgb(0 0 0 / 10%);
-    font-weight: 500;
-    border-radius: 10rem;
-    padding: 0.625rem 1.5rem 0.5rem;
-  }
-  
-  .header-title {
-    font-family: Georgia;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 50px;
-    padding-top: 50px;
-  }
-  header {
-    background-image: url(https://readrate.com/img/pictures/rating/364/36418/36418/w816h301-crop-stretch-daa78d98.jpg);
-  }
-  
-  .book-parts {
-    display: flex;
-    margin-top: 30px;
-    box-shadow: 2px 4px 25px rgba(0, 0, 0, 0.1);
-    margin-right: 20px;
-    border-radius: 6px;
-    position: relative;
-  }
-  .book-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  .book-img {
-    max-height: 400px;
-    max-width: 300px;
-    width: 300px;
-    height: 100%;
-  }
-  .book-btn {
-    display: flex;
-    margin-bottom: 15px;
-    margin-left: 15px;
-    margin-right: 15px;
-  }
-  .add_buy {
-    margin-left: 25px;
-    color: #fff;
-    background-color: #caad0c;
-  }
-  .add_buy:hover {
+  margin: 0;
+}
+.main {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-color: rgb(112, 69, 13);
+}
+button {
+  text-transform: uppercase;
+  vertical-align: bottom;
+  border: 0;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 20%), 0 2px 10px 0 rgb(0 0 0 / 10%);
+  font-weight: 500;
+  border-radius: 10rem;
+  padding: 0.625rem 1.5rem 0.5rem;
+}
+
+.header-title {
+  font-family: Georgia;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+header {
+  background-image: url(https://readrate.com/img/pictures/rating/364/36418/36418/w816h301-crop-stretch-daa78d98.jpg);
+}
+
+.book-parts {
+  display: flex;
+  margin-top: 30px;
+  box-shadow: 2px 4px 25px rgba(0, 0, 0, 0.1);
+  margin-right: 20px;
+  border-radius: 6px;
+  position: relative;
+}
+.book-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.book-img {
+  max-height: 400px;
+  max-width: 300px;
+  width: 300px;
+  height: 100%;
+}
+.book-btn {
+  display: flex;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.add_buy {
+  margin-left: 25px;
+  color: #fff;
+  background-color: #caad0c;
+}
+.add_buy:hover {
   background-color: green;
-  }
-  .author {
-    padding-top: 10px;
-    padding-left: 8px;
-    font-family: Georgia;
-  }
-  .title {
-    padding-top: 15px;
-    padding-left: 8px;
-    font-family: Georgia;
-  }
-  .price {
-    padding-top: 15px;
-    padding-left: 8px;
-    font-family: Arial;
-  }
-  .show-more {
-    color: #fff;
-    background-color: #caad0c;
-  }
-  .show-more:hover {
+}
+.author {
+  padding-top: 10px;
+  padding-left: 8px;
+  font-family: Georgia;
+}
+.title {
+  padding-top: 15px;
+  padding-left: 8px;
+  font-family: Georgia;
+}
+.price {
+  padding-top: 15px;
+  padding-left: 8px;
+  font-family: Arial;
+}
+.show-more {
+  color: #fff;
+  background-color: #caad0c;
+}
+.show-more:hover {
   background-color: green;
-  }
-  .show-box {
-    position: relative;
-  }
-  .desc-box {
-    position: absolute;
-    width: 370px;
-    max-width: 500px;
-    min-height: 200px;
-    height: 100%;
-    background-color: rgb(255, 255, 255);
-    z-index: 5;
-    border-radius: 6px;
-    left: 15px;
-    box-shadow: 2px 4px 25px #afafaf;
-  }
-  
+}
+.show-box {
+  position: relative;
+}
+.desc-box {
+  position: absolute;
+  width: 370px;
+  max-width: 500px;
+  min-height: 200px;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  z-index: 5;
+  border-radius: 6px;
+  left: 15px;
+  box-shadow: 2px 4px 25px #afafaf;
+}
+.close-btn {
+  color: #fff;
+  background-color: #a40cca;
+  position: relative;
+}
+.close-btn:hover {
+  background-color: red;
+}
+.exit-btn {
+  background-color: #000000;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: -50px;
+}
+.exit-btn:hover {
+  background-color: red;
+}
+.enable {
+  display: flex;
+}
+.confirm {
+  display: none;
+  color: #4f4f4f;
+  background-color: #f9f9f9;
+}
+.confirm-direct {
+  margin-left: 80px;
+  text-decoration: none;
+}
+.total-confirm {
+  display: flex;
+  margin-top: 40px;
+}
+.books-for-buy {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: start;
+}
+.enable {
+  display: flex;
+}
