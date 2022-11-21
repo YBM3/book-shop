@@ -146,11 +146,10 @@ function createOrderResult(){
   resultDeliveryDate.innerHTML = `Delivery date: ${inputDate.value}`;
   let thanks = document.createElement("div");
   thanks.classList.add("result-title");
-  thanks.innerHTML = `Thank You!`;
-let closeBtn = document.createElement("button");
-closeBtn.classList.add("close-btn");
-closeBtn.innerHTML = "Close";
-closeBtn.addEventListener("click", (event)=>{
+  let closeBtn = document.createElement("button");
+  closeBtn.classList.add("close-btn");
+  closeBtn.innerHTML = "Close";
+  closeBtn.addEventListener("click", (event)=>{
   event.preventDefault();
   resultDivToShow.removeAttribute("class",
   "show-result");
