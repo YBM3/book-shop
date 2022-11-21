@@ -114,7 +114,7 @@ const total_confirm = document.createElement('div');
 const confirm_direct = document.createElement('a');
 
 confirm_direct.classList.add('confirm-direct');
-confirm_direct.href = 'validation.html';
+confirm_direct.href = 'order.html';
 total_confirm.classList.add('total-confirm');
 confirm.classList.add('confirm');
 confirm.innerText = 'Confirm';
