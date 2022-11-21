@@ -82,7 +82,6 @@ inputHouse.onfocus = function() {
     errorHouseNumber.innerHTML = "";
   }
 }
-//Flat
 let inputFlat = document.getElementById("Flat")
 
 inputFlat.onblur = function(){
@@ -192,7 +191,7 @@ let resultDivShow = document.querySelector(".result");
 
     for (let i of inputs){
     if (i.value.trim() === "" || i.value === "" || !validPay){
-    isValid = false;
+    isValid = true;
     btn.disabled;
     btn.style.cursor = "not-allowed";
     }
