@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="order.css" />
+    <title>Document</title>
+  </head>
+  <article class="hide-result">
+    <div class="result">
+      <p class="result-title">Order Confirmed</p>
+    </div>
+  </article>
+  <body class="validation-body">
+    <div class="order-show">
+      <div class="order-box">
+        <div class="order">
+      <div class="input-value">
+        <label>Name </label>
+        <input
+          id="name"
+          class="valid-inputs"
+          type="text"
+          required=""
+          pattern="[a-zA-Z]+"
+          minlength="4"
+          onclick="enableSubmit()"
+        />
+      </div>
+      <div id="errorName" class="error"></div>
+      <div class="input-value">
+        <label>Surname </label>
+        <input
+          id="Surname"
+          class="valid-inputs"
+          type="text"
+          required=""
+          pattern="[a-zA-Z]+"
+          minlength="5"
+          onclick="enableSubmit()"
+        />
+        <div id="errorSurname" class="error"></div>
+      </div>
+      <div class="input-value">
+        <label class="not-early">Delivery Date </label>
+        <input
+          type="date"
+          required=""
+          id="date"
+          class="valid-inputs"
+          onclick="enableSubmit()"
+        />
+      </div>
+      <div id="errorDate" class="error"></div>
+      <div class="input-value">
+        <label>Street </label>
+        <input
+          id="Street"
+          class="valid-inputs"
+          type="text"
+          required=""
+          minlength="5"
+          pattern="[a-zA-Z0-9][a-zA-Z0-9-( )]+"
+          onclick="enableSubmit()"
+        />
+        <div id="errorStreet" class="error"></div>
+      </div>
+      <div class="input-cont">
+        <label>House Number </label>
+        <input
+          id="HouseNumber"
+          class="valid-inputs"
+          type="number"
+          required=""
+          pattern="[1-9][0-9]*"
+          onclick="enableSubmit()"
+        />
+        <div id="errorHouseNumber" class="error"></div>
+      </div>
+      <div class="input-cont">
+        <label>Flat Number </label>
+        <input
+          id="Flat"
+          class="valid-inputs"
+          type="number"
+          required=""
+          pattern="[1-9][0-9]*(-[1-9][0-9]*)*"
+          onclick="enableSubmit()"
+        />
+        <div id="errorFlat" class="error"></div>
+      </div>
+      <div class="radio-box">
+        <div style="font-family: Georgia;">Payment type:</div>
+        <div class="radio-cash-box">
+          <input
+            id="cash"
+            class="radio-cash-btn"
+            type="radio"
+            value="cash"
+            name="pay"
+          /><label class="pay">Cash</label>
+        </div>
+        <div class="radio-card-box">
+          <input
+            id="card"
+            class="radio-card-btn radio-card-label"
+            type="radio"
+            value="cash"
+            name="pay"
+          /><label class="pay">Card</label>
+        </div>
+      </div>
+    </div>
+      <div class="gift-box">
+        <div style="font-family: Georgia;">Choose 2 gift:</div>
+        <div class="check-gift-box">
+          <input class="gift-check" type="checkbox" name="gift" />
+          <label>pack as a gift</label>
+        </div>
+        <div class="postcard-gift-box">
+          <input class="gift-check" type="checkbox" name="gift" />
+          <label>add postcard</label>
+        </div>
+        <div class="discount-gift-box">
+          <input class="gift-check" type="checkbox" name="gift" />
+          <label>provide 2% discount to the next time</label>
+        </div>
+        <div class="branded-gift-box">
+          <input class="gift-check" type="checkbox" name="gift" /><label
+            for="branded"
+          >
+            branded pen or pencil
+          </label>
+        </div>
+      </div>
+      <input type="submit" value="Submit" class="submit-btn" disabled />
+    </div>
+  </div>
+    <script src="order.js"></script>
+  </body>
+</html>

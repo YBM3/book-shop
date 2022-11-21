@@ -1,0 +1,155 @@
+*{
+  color: black;
+}
+body {
+    background-color: burlywood;
+    font-family: Tahoma;
+    font-size: 16px;
+  }
+
+  header{
+    margin: 0 auto;
+    max-width: 1160px;;
+  }
+  .order-box {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+    color: #f5f6f7;
+  }
+
+  .order {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #3b3b4f;
+    color: #f5f6f7;
+  }
+
+  .order:last-of-type {
+    border-bottom: none;
+    color: #f5f6f7;
+  }
+
+  input {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+    background-color: #d8b97f;
+    border: 1px solid #0a0a23;
+    color: #ffffff;
+  }
+
+  .submit-btn {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: rgb(0, 0, 0);
+    border-color: white;
+    border-radius: 6px;
+    min-width: 300px;
+    color: #ffffff;
+  }
+.radio-right{
+  margin-left: 40px;
+}
+label{
+  margin-bottom: 10px;
+}
+
+.error{
+    color: red;
+}
+
+.hide-result{
+  padding: 50px;
+  background-color: aliceblue;
+  margin: 0 auto;
+  margin-top: 40px;
+  max-width: 600px;
+  height: 600px;
+  border-radius: 10px;
+}
+.result{
+  padding: 50px;
+  background-color: aliceblue;
+  margin: 0 auto;
+  margin-top: -50px;
+  max-width: 600px;
+  height: 600px;
+  border-radius: 10px;
+}
+.result-title{
+  color:#0a0a23;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  text-align: center;
+  font-family: Tahoma;
+  font-weight: 700;
+  font-size: 46px;
+}
+.result-data{
+  color:#0a0a23;
+  margin-bottom: 30px;
+  text-align: left;
+  font-family: Tahoma;
+  font-weight: 700;
+  font-size: 36px;
+}
+.order-show{
+  visibility: visible;
+}
+.order-hidden{
+  display:none;
+}
+.result-info{
+  margin-top: 50px;
+  font-family: Tahoma;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 60px;
+}
+.submit-btn{
+  cursor: pointer;
+}
+.show-result{
+  display: block;
+}
+article{
+  display: none;
+}
+.close-btn{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  height: 40px;
+  width: 150px;
+    border-radius: 7px;
+    background-color: #0a0a23;
+    border: 1px solid #0a0a23;
+    color:antiquewhite;
+   font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+.close-btn:hover{
+  cursor: pointer;
+  background-color:#FFE787;
+   border: 2px solid #0a0a23;
+   color: #0a0a23;
+   font-weight: 700;
+ }
+.pay{
+  left: 460px;
+  padding-top: 10px;
+  position:absolute;
+}
+.gift-box label {
+  position: absolute;
+  left: 460px;
+  padding-top: 10px;
+  position:absolute;
+  width: 200px;
+}
